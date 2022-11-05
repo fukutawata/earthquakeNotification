@@ -102,7 +102,7 @@ def earthquake_execute():
 
     
         headers = {
-            'Authorization': 'Bearer TnhoF7qdozDrclqKZfNnrGK9Wan0EXSmPiiG5JHjdas',
+            'Authorization': 'Bearer YourLineNotifyToken',
         }
 
         messagefile="緊急地震速報"+"======================="+"地震発生時間:\n"+str(quake_time)+"\n震源地:"+name+"\n予想最大震度 :"+intensity+"\nマグニチュード:"+str(magnitude)
@@ -124,7 +124,7 @@ def earthquake_execute():
         driver.save_screenshot("aaa.png")
         #driver.save_screenshot("")
         headers = {
-            'Authorization': 'Bearer TnhoF7qdozDrclqKZfNnrGK9Wan0EXSmPiiG5JHjdas',
+            'Authorization': 'Bearer YourLineNotifyToken',
         }
 
         image = 'aaa.png'
